@@ -6,6 +6,38 @@ def sum(number1, number2):
     print()
     print(number1+number2)
 
+def sumArm(number1, number2):
+    print("Մուտքագրեք առաջին թիվը")
+    number1 = int(input())
+    print("Մուտքագրեք երկրորդ թիվը")
+    number2 = int(input())
+    print()
+    print(number1+number2)
+
+def divideArm(number1, number2):
+    print("Մուտքագրեք առաջին թիվը")
+    number1 = int(input())
+    print("Մուտքագրեք երկրորդ թիվը")
+    number2 = int(input())
+    print()
+    print(number1/number2)
+
+def multipleArm(number1, number2):
+    print("Մուտքագրեք առաջին թիվը")
+    number1 = int(input())
+    print("Մուտքագրեք երկրորդ թիվը")
+    number2 = int(input())
+    print()
+    print(number1*number2)
+
+def subtractArm(number1, number2):
+    print("Մուտքագրեք առաջին թիվը")
+    number1 = int(input())
+    print("Մուտքագրեք երկրորդ թիվը")
+    number2 = int(input())
+    print()
+    print(number1-number2)
+
 def divide(number1, number2):
     print("Enter first number")
     number1 = int(input())
@@ -29,6 +61,40 @@ def subtract(number1, number2):
     number2 = int(input())
     print()
     print(number1-number2)
+
+def sumRus(number1, number2):
+    print("Введите первое число")
+    number1 = int(input())
+    print("Введите второе число")
+    number2 = int(input())
+    print()
+    print(number1+number2)
+
+def divideRus(number1, number2):
+    print("Введите первое число")
+    number1 = int(input())
+    print("Введите второе число")
+    number2 = int(input())
+    print()
+    print(number1/number2)
+
+def multipleRus(number1, number2):
+    print("Введите первое число")
+    number1 = int(input())
+    print("Введите второе число")
+    number2 = int(input())
+    print()
+    print(number1*number2)
+
+def subtractRus(number1, number2):
+    print("Введите первое число")
+    number1 = int(input())
+    print("Введите второе число")
+    number2 = int(input())
+    print()
+    print(number1-number2)
+
+
 while True:
     print("=======  MENU  =======")
     print("{ 1 } Sum")
@@ -103,25 +169,25 @@ while True:
                     if x == "1":
                         print()
                         print("+++++++ ԳՈՒՄԱՐՈՒՄ +++++++")
-                        sum(0, 0)
+                        sumArm(0, 0)
                     elif x == "2":
                         print()
                         print("/////// ԲԱԺԱՆՈՒՄ ///////")
-                        divide(0, 0)
+                        divideArm(0, 0)
                     elif x == "3":
                         print()
                         print("******* ԲԱԶՄԱՊԱՏԿՈՒՄ *******")
-                        multiple(0, 0)
+                        multipleArm(0, 0)
                     elif x == "4":
                         print()
                         print("------- ՀԱՆՈՒՄ -------")
-                        subtract(0, 0)
+                        subtractArm(0, 0)
                     elif x == "5":
                         print()
                         print("+-+-+-+-+- ՊԱՐԱՄԵՏՐԵՐ +-+-+-+-+-")
+                        print("Պարամետրերը բացակայում են")
                         print()
-                        print("Ընտրեք տարբերակներից մեկը")
-                        y = input()
+                        print()
                     elif x == "00":
                         break
             if lang == "3":
@@ -146,23 +212,24 @@ while True:
                     if x == "1":
                         print()
                         print("+++++++ СУММА +++++++")
-                        sum(0, 0)
+                        sumRus(0, 0)
                     elif x == "2":
                         print()
                         print("/////// РАЗДЕЛЯТЬ ///////")
-                        divide(0, 0)
+                        divideRus(0, 0)
                     elif x == "3":
                         print()
                         print("******* УМНОЖЕНИЕ *******")
-                        multiple(0, 0)
+                        multipleRus(0, 0)
                     elif x == "4":
                         print()
                         print("------- ВЫЧИТАНИЕ -------")
-                        subtract(0, 0)
+                        subtractRus(0, 0)
                     elif x == "5":
                         print()
                         print("+-+-+-+-+- НАСТРОЙКИ +-+-+-+-+-")
-                        print()
                         print("Нет варианта")
+                        print()
+                        print()
                     elif x == "00":
                         break

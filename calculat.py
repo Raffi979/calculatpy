@@ -1,96 +1,72 @@
 def sum(number1, number2):
-    print("Enter first number")
-    number1 = int(input())
-    print("Enter second number")
-    number2 = int(input())
+    number1 = int(input("Enter first number: "))
+    number2 = int(input("Enter second number: "))
     print()
     print(number1+number2)
 
 def sumArm(number1, number2):
-    print("Մուտքագրեք առաջին թիվը")
-    number1 = int(input())
-    print("Մուտքագրեք երկրորդ թիվը")
-    number2 = int(input())
+    number1 = int(input("Մուտքագրեք առաջին թիվը: ")
+    number2 = int(input("Մուտքագրեք երկրորդ թիվը: ")
     print()
     print(number1+number2)
 
 def divideArm(number1, number2):
-    print("Մուտքագրեք առաջին թիվը")
-    number1 = int(input())
-    print("Մուտքագրեք երկրորդ թիվը")
-    number2 = int(input())
+    number1 = int(input("Մուտքագրեք առաջին թիվը: "))
+    number2 = int(input("Մուտքագրեք երկրորդ թիվը: "))
     print()
     print(number1/number2)
 
 def multipleArm(number1, number2):
-    print("Մուտքագրեք առաջին թիվը")
-    number1 = int(input())
-    print("Մուտքագրեք երկրորդ թիվը")
-    number2 = int(input())
+    number1 = int(input("Մուտքագրեք առաջին թիվը: "))
+    number2 = int(input("Մուտքագրեք երկրորդ թիվը: "))
     print()
     print(number1*number2)
 
 def subtractArm(number1, number2):
-    print("Մուտքագրեք առաջին թիվը")
-    number1 = int(input())
-    print("Մուտքագրեք երկրորդ թիվը")
-    number2 = int(input())
+    number1 = int(input("Մուտքագրեք առաջին թիվը: "))
+    number2 = int(input("Մուտքագրեք երկրորդ թիվը: "))
     print()
     print(number1-number2)
 
 def divide(number1, number2):
-    print("Enter first number")
-    number1 = int(input())
-    print("Enter second number")
-    number2 = int(input())
+    number1 = int(input("Enter first number: "))
+    number2 = int(input("Enter second number: "))
     print()
     print(number1/number2)
 
 def multiple(number1, number2):
-    print("Enter first number")
-    number1 = int(input())
-    print("Enter second number")
-    number2 = int(input())
+    number1 = int(input("Enter first number: "))
+    number2 = int(input("Enter second number: "))
     print()
     print(number1*number2)
 
 def subtract(number1, number2):
-    print("Enter first number")
-    number1 = int(input())
-    print("Enter second number")
-    number2 = int(input())
+    number1 = int(input("Enter first number: "))
+    number2 = int(input("Enter second number: "))
     print()
     print(number1-number2)
 
 def sumRus(number1, number2):
-    print("Введите первое число")
-    number1 = int(input())
-    print("Введите второе число")
-    number2 = int(input())
+    number1 = int(input("Введите первое число: "))
+    number2 = int(input("Введите второе число: "))
     print()
     print(number1+number2)
 
 def divideRus(number1, number2):
-    print("Введите первое число")
-    number1 = int(input())
-    print("Введите второе число")
-    number2 = int(input())
+    number1 = int(input("Введите первое число: "))
+    number2 = int(input("Введите второе число: "))
     print()
     print(number1/number2)
 
 def multipleRus(number1, number2):
-    print("Введите первое число")
-    number1 = int(input())
-    print("Введите второе число")
-    number2 = int(input())
+    number1 = int(input("Введите первое число: "))
+    number2 = int(input("Введите второе число: "))
     print()
     print(number1*number2)
 
 def subtractRus(number1, number2):
-    print("Введите первое число")
-    number1 = int(input())
-    print("Введите второе число")
-    number2 = int(input())
+    number1 = int(input("Введите первое число: "))
+    number2 = int(input("Введите второе число: "))
     print()
     print(number1-number2)
 
@@ -228,7 +204,7 @@ while True:
                     elif x == "5":
                         print()
                         print("+-+-+-+-+- НАСТРОЙКИ +-+-+-+-+-")
-                        print("Нет варианта")
+                        print("{ - } Нет варианта")
                         print()
                         print()
                     elif x == "00":
